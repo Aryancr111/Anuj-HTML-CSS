@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <h1><u>Registration Form</u></h1>
+    <form action="">
+        
+        <p>Please enter the following details to become a member.</p>
+        <label for="name">What is your name?</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+
+        <label for="age">How old are you? </label>
+        <input type="number" id="age" name="age">
+        <br><br>
+
+        <label for="dobirth">What is your Date Of Birth?</label>
+        <input type="date" id="dobirth" name="dobirth" id="dobirth">
+        <br><br>
+
+        <label for="mail">What is your Email Address?</label>
+        <input type="email" id="mail" name="mail">
+        <br><br>
+
+        <label for="pass">What password do you wish to set? </label>
+        <input type="password" id="pass" name="pass">
+        <br><br>
+
+        <label for="">What is your Gender? </label>
+        <br>
+        <input type="radio" id="maleradio" name="gender" value="Male">
+        <label for="maleradio">Male</label>      
+        <input type="radio" id="femaleradio" name="gender" value="Female">
+        <label for="femaleradio">Female</label> 
+        <br><br>
+
+        <label for="colorchoice">What color do you want on your profile?</label>
+        <input type="color" name="colorchoice" id="colorchoice">
+        <br><br>
+
+        <label for="mealpref">Select your Meal Preference from dropdown?</label>
+        <select name="meal" id="mealpref">
+            <option value="Veg">Veg</option>
+            <option value="Nonveg">Non-Veg</option>
+            <option value="Jain">Jain</option>
+            <option value="Nofood">No Food</option>
+        </select>
+        <br><br>
+
+        <label for="sop">What value will you bring to our club?</label>
+        <br>
+        <textarea name="" id="" cols="60" rows="10"></textarea>
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+</html>
