@@ -1,0 +1,55 @@
+/* Element selectors */
+
+body{
+    font-size: 24px;
+    color: #2b75ff
+}
+
+h1{
+    color: rgb(8, 177, 121);
+}
+
+p{
+    font-size: 18px;
+}
+
+/* Use of psuedo-selectors to styles states of elements */
+
+p:hover{
+    color:blueviolet; 
+}
+
+/* Class Selector */
+
+.xmasred{
+    color: rgb(255, 86, 86);
+}
+
+.xmasgreen{
+    color: rgb(7, 119, 7);
+}
+
+.highlight{
+    background-color: rgb(255, 255, 99);
+    font-weight: bold;
+}
+
+/* ID Selector for a specific element */
+
+#third-heading{
+    font-size: 48px;
+    color: rgb(14, 97, 71);
+}
+
+/* Grouping selectors to group properties */
+
+#grouping-heading, #grouping-para{
+    color: rgb(172, 120, 8);
+}
+
+/* Use of nesting to access specific elements within */
+
+#nested-section>p{
+    color: rgb(255, 215, 156);
+    font-size: 32px;
+}
